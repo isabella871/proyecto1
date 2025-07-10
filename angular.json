@@ -5,7 +5,9 @@
   "projects": {
     "proyecto1": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {"@schematics/angular:component": {
+          "style": "none"
+        }},
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -86,5 +88,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "881845e6-6c76-41a4-86e3-b9938a97b91d"
   }
 }
